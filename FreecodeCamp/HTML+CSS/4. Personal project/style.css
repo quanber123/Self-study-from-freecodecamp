@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#section-header{
+    height: 400px;
+    background-image: url('./img/hometown.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+#visit-hanoi{
+    background-color: #8399B8;
+    color: #fff;
+    font-size: large;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+}
+
+#visit-hanoi:hover{
+    background:linear-gradient(#ff5858,#ffc8c8);
+}
+
+#content-hanoi{
+    background-color: #1C82AD;
+    padding: 5px 10px;
+}
+
+.describe{
+    color: #1C82AD;
+}
+#section-main{
+    display: block;
+    color: #0081C9;
+    background:linear-gradient(#b5c6e0,#ebf4f5);
+    padding-top: 20px;
+}
+.detail-hometown{
+    width: 400px;
+    height: auto;
+    margin: 20px auto;
+}
+.hometown{
+    display: flex;
+    text-align: center;
+    justify-content:space-around;
+}
+
+.img-hometown{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+#myCard{
+    width: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    background: linear-gradient(#9bf8f4,#6f7bf7);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#myAvatar{
+    width: 150px;
+    height: auto;
+}
